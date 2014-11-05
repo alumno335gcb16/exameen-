@@ -12,6 +12,9 @@ document.addEventListener("pause",function(){
 document.addEventListener("resume",function(){
 	escribehistoria('la app se reinició');
 },false);//resume
+document.addEventListener("online",function(){
+	escribehistoria('la app se conecto de la red');
+},false);//se conecto
 document.addEventListener("offline",function(){
 	escribehistoria('la app se desconecto de la red');
 },false);//se desconecto
