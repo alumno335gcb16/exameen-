@@ -20,6 +20,6 @@ document.addEventListener("offline",function(){
 },false);//se desconecto
 	},false);//ready device
 });//document
-function escribiendohistoria(accion){
+function escribiehistoria(accion){
 	$('#eHistoria').append('<li>'+accion+'</li>');
 }
